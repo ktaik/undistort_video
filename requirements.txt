@@ -1,0 +1,16 @@
+numpy>=1.26.0
+opencv-python>=4.8.0
+scipy>=1.11.0
+PyYAML>=6.0
+
+# PyTorch (CPU版)
+torch>=2.0.0 --index-url https://download.pytorch.org/whl/cpu
+torchvision>=0.15.0 --index-url https://download.pytorch.org/whl/cpu
+
+# YOLOv8 (推奨)
+ultralytics>=8.0.0
+
+# その他の依存関係
+Pillow>=9.0.0
+matplotlib>=3.7.0
+tqdm>=4.65.0
